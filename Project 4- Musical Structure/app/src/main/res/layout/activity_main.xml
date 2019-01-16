@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   >
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/playListsMaster"
+        android:textSize="40sp"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:text="Playlists"
+        />
+
+    <TextView
+        android:id="@+id/allSongs"
+        android:textSize="40sp"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:text="All Songs"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+         />
+
+    <TextView
+        android:id="@+id/Buy"
+        android:textSize="40sp"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:text="Buy new Songs!"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+      <Button
+          android:id="@+id/nowPlaying1"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginBottom="20dp"
+          android:text="Now Playing"
+          android:layout_alignParentBottom="true"/>
+
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

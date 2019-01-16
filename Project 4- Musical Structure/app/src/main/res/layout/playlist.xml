@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This UI will show to user the playlists that was created before and also give the option to edit, creat and delete a playlist"
+        android:textSize="20sp"
+        android:paddingLeft="10dp"
+        />
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/playlist1"
+        android:textSize="40sp"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:text="Playlist 1"
+        />
+
+    <TextView
+        android:id="@+id/playlist2"
+        android:textSize="40sp"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:text="Playlist 2"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        />
+
+    <TextView
+        android:id="@+id/creatplay"
+        android:textSize="40sp"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:text="New playlist .. "
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/home4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Main Page"
+            android:layout_above="@+id/nowPlaying2"/>
+
+        <Button
+            android:id="@+id/nowPlaying2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Now Playing"
+            android:layout_alignParentBottom="true"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

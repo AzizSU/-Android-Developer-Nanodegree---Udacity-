@@ -1,0 +1,43 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This UI will show to user the song which is playing now, it will be something like the following"
+        android:textSize="20sp"
+        android:paddingLeft="10dp"
+        />
+
+    <ImageView
+        android:paddingTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/pic"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/home2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Main page"
+            android:layout_above="@+id/allsongs3"/>
+
+        <Button
+            android:id="@+id/allsongs3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="All Songs"
+            android:layout_alignParentBottom="true"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_earthquake"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="2dp"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <EditText
+            android:id="@+id/text_input"
+            android:layout_height="wrap_content"
+            android:layout_width="300dp"
+            android:inputType="text"/>
+        <Button
+            android:id="@+id/enter_id"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Enter" />
+    </LinearLayout>
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:id="@+id/list"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        >
+    </ListView>
+
+    <RelativeLayout
+        android:id="@+id/noDataParent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textSize="20sp"
+            android:text=""
+            android:id="@+id/noData"
+            />
+
+    </RelativeLayout>
+</LinearLayout>

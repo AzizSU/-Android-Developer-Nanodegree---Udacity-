@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nameOfLocation"
+        android:paddingTop="32dp"
+        android:text=""
+        android:paddingLeft="16dp"
+        android:textSize="40sp"
+        />
+
+    <TextView
+        android:paddingTop="16dp"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/description"
+        android:text="@string/description"
+        android:paddingLeft="16dp"
+        />
+
+    <TextView
+        android:paddingTop="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/descOfLocation"
+        android:paddingLeft="16dp"
+        />
+
+    <TextView
+        android:paddingTop="16dp"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Location"
+        android:text="@string/location"
+        android:paddingLeft="16dp"
+        />
+
+    <TextView
+        android:paddingLeft="16dp"
+        android:paddingTop="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/locOfLoc"
+        />
+
+    <TextView
+        android:paddingTop="16dp"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Comments"
+        android:text="@string/comments"
+        android:paddingLeft="16dp"
+        />
+
+</LinearLayout>

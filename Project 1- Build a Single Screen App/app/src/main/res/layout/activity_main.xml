@@ -1,0 +1,122 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.work.projectlesson1.MainActivity">
+
+        <Button
+            android:id="@+id/next_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#2C3E50"
+            android:fontFamily="serif-monospace"
+            android:text="Join Us!"
+            android:textColor="#FFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="330dp"
+            android:layout_height="330dp"
+            android:paddingLeft="100dp"
+            android:paddingTop="110dp"
+            android:scaleType="fitStart"
+            android:src="@drawable/profile" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="280dp"
+            android:background="#6DA9C7"
+            android:fontFamily="serif-monospace"
+            android:paddingLeft="20dp"
+            android:paddingTop="5dp"
+            android:text="Who are we?"
+            android:textColor="#FFFF"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="310dp"
+            android:background="#6DA9C7"
+            android:paddingBottom="40dp"
+            android:paddingLeft="30dp"
+            android:text="TechBench is a tech community run by students at King Fahd University of Petroleum and Minerals (KFUPM)."
+            android:textColor="#FFFF"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="400dp"
+            android:background="#2C3E50"
+            android:fontFamily="serif-monospace"
+            android:paddingLeft="20dp"
+            android:paddingTop="5dp"
+            android:text="What we do? "
+            android:textColor="#FFFF"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="430dp"
+            android:background="#2C3E50"
+            android:paddingBottom="40dp"
+            android:paddingLeft="30dp"
+            android:text="We strive to increase awareness about Information Technology by facilitating events where people can meet and learn from each other."
+            android:textColor="#FFFF"
+            android:textSize="18sp" />
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="530dp"
+            android:background="#6DA9C7"
+            android:paddingBottom="50dp"
+            tools:context="com.example.work.projectlesson1.MainActivity">
+
+            <ImageView
+                android:id="@+id/twitter"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/twitter" />
+
+            <ImageView
+                android:id="@+id/facebook"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/facebook" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="600dp"
+            android:fontFamily="serif-monospace"
+            android:paddingLeft="80dp"
+            android:paddingTop="5dp"
+            android:text="✆ 966555232263"
+            android:textColor="#FFFF"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+</ScrollView>
